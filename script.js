@@ -53,14 +53,14 @@ productDetailButton.forEach((btn) => {
 });
   
   
-  document.querySelector('.modal .close-icon').onclick = (e) => {
-    itemdetailmodal.style.display = 'none';
+  document.querySelector('.modal .close-icon').onclick = (e) => { 
+    itemDetailModal.style.display = 'none';
     e.preventDefault();
   }
   
   const modal = document.querySelector('#modal-item-detail');
   window.onclick = (e) => {
     if (e.target === modal) {
-      itemdetailmodal.style.display = 'none';
+      itemDetailModal.style.display = 'none';
     }
   }
